@@ -1,3 +1,135 @@
-h1{
-    color:#000;
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.b{
+    border: 1px solid yellow;
+}
+.header{
+    background-color: #000;
+	width: 1920px;
+}
+
+.headerimg{
+	justify-content: center;
+}
+
+.headerimg .img{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/people.png?raw=true);
+    height: 848px;
+    width: 636px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+	margin-top: 72px;
+}
+
+.f-f{
+	font-family: Bruno Ace SC;
+}
+.fc-w{
+    color:white;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.nav{
+	height: 128px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #D1D1D1;
+	align-items: center;
+	text-align: center;
+	justify-content: space-around;
+}
+.headerimg .content{
+	margin-top: 232px;
+	margin-left: 10px;
+	flex-direction: column;
+}
+
+.headerimg .content h1,h2{
+	font-size: 64px;
+	line-height: 96px;
+	font-weight: normal;
+}
+
+.headerimg .content h3{
+	margin-left: 60px;
+	font-size: 128px;
+	line-height: 192px;
+	color: #00FFA3;
+	align-self: flex-end;
+}
+
+.contactBg{
+	background-color: #FFFFFF;
+	align-self: flex-end;
+
+}
+
+.contact{
+	/*不知道為什麼沒辦法在這裡下display:block變成按鈕，然後用padding往外推，所以最後只能用設置尺寸做出來 */
+	color:#000;
+	align-items: center;
+	font-size: 16px;
+	line-height: 24px;
+	padding-left: 12px ;
+	padding-right: 12px;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+.arrow{
+	font-family:'Material Icons';
 }
