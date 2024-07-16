@@ -50,9 +50,34 @@ table {
 }
 
 
+/* --------------------分隔線 */
+
+
+body{
+	font-family:"Bruno Ace SC", sans-serif;
+	line-height:1.5;
+}
+
+a{
+	text-decoration: none;
+	display: inline-block;
+	color:inherit
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
 .b{
     border: 1px solid yellow;
 }
+
+/* --------------------分隔線 */
+
+
+
 .header{
     background-color: #000;
 	width: 1920px;
@@ -67,13 +92,10 @@ table {
     height: 848px;
     width: 636px;
     background-repeat: no-repeat;
-    box-sizing: border-box;
 	margin-top: 72px;
 }
 
-.f-f{
-	font-family: Bruno Ace SC;
-}
+
 .fc-w{
     color:white;
 }
@@ -109,27 +131,27 @@ table {
 	font-size: 128px;
 	line-height: 192px;
 	color: #00FFA3;
-	align-self: flex-end;
-}
-
-.contactBg{
-	background-color: #FFFFFF;
-	align-self: flex-end;
 
 }
 
-.contact{
-	/*不知道為什麼沒辦法在這裡下display:block變成按鈕，然後用padding往外推，所以最後只能用設置尺寸做出來 */
-	color:#000;
-	align-items: center;
-	font-size: 16px;
-	line-height: 24px;
-	padding-left: 12px ;
-	padding-right: 12px;
-	margin-top: 24px;
-	margin-bottom: 24px;
+.container{
+	width: 1296px;
+	margin: 0 auto;
 }
 
-.arrow{
-	font-family:'Material Icons';
+.text-primary{
+	color: #00FFA3;
+}
+
+.h1{
+	font-size: 128px;
+}
+
+.h2{
+	font-size: 64px;
+	color: white;
+}
+
+.align-items-center{
+	align-items:center;
 }
