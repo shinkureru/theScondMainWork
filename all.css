@@ -80,7 +80,8 @@ img{
 
 .header{
     background-color: #000;
-	width: 1920px;
+
+	color:white;
 }
 
 .headerimg{
@@ -105,6 +106,7 @@ img{
 }
 
 .nav{
+	margin: 0 auto;
 	height: 128px;
 	font-size: 16px;
 	line-height: 24px;
@@ -113,6 +115,7 @@ img{
 	align-items: center;
 	text-align: center;
 	justify-content: space-around;
+	width: 1296px;
 }
 .headerimg .content{
 	margin-top: 232px;
@@ -149,9 +152,94 @@ img{
 
 .h2{
 	font-size: 64px;
-	color: white;
 }
 
 .align-items-center{
 	align-items:center;
+}
+
+.t-a-r{
+	text-align: right;
+	display: block;
+}
+
+.contactPd{
+	padding: 12px 24px;
+	border-radius: 32px;
+}
+
+.contactWhite{
+	background:white;
+	color: black;
+}
+
+.jcfe{
+	justify-content: flex-end;
+}
+
+.intro{
+	background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:white;
+	padding: 160px;
+}
+
+.intro-w{
+	width: 526px;
+}
+
+.mr-24{
+	margin-right: 24px;
+}
+
+.intro p{
+	margin-top: 36px;
+	line-height: 36px;
+	font-size: 24px;
+}
+
+.fd-c{
+	flex-direction: column;
+}
+
+.about .content{
+	flex-wrap: wrap;
+}
+
+.sideText{
+	width: 306px;
+	height: 148px;
+	justify-content:space-evenly;
+	border: 1px solid #E3E3E3;
+	padding: 16px;
+	margin: 12px;
+}
+
+.sideText h3{
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.sideText p{
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.about{
+	margin: 0 auto;
+	width: 1296px;
+	padding: 160px;
+	align-items: center;
+}
+
+.aboutme p{
+	width: 526px;
+	font-size: 24px;
+	line-height: 36px;
+	margin-top: 36px;
+}
+
+.about{
+	align-items: center;
 }
